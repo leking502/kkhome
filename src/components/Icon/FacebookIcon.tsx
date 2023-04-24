@@ -9,5 +9,5 @@ const FacebookIcon: FC<IconProps> = memo(props => (
       fill="currentColor"></path>
   </Icon>
 ));
-
+FacebookIcon.displayName = ""
 export default FacebookIcon;

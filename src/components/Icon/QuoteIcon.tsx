@@ -14,5 +14,5 @@ const QuoteIcon: FC<IconProps> = memo(props => (
     />
   </Icon>
 ));
-
+QuoteIcon.displayName = ""
 export default QuoteIcon;

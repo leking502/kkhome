@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  trailingSlash: true,
+  trailingSlash: false,
   // productionBrowserSourceMaps: true,
+  productionBrowserSourceMaps: false,
   images: {
-    loader: "akamai",
-    path: "",
+    domains: ['images.unsplash.com', 'source.unsplash.com'],
   }
 };
 

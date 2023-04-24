@@ -15,5 +15,5 @@ const GithubIcon: FC<IconProps> = memo(props => (
           fill="currentColor"></path>
   </Icon>
 ));
-
+GithubIcon.displayName = ""
 export default GithubIcon;
